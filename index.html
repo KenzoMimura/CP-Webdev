@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP1-TempoReuniao</title>
+</head>
+<body>
+
+
+    <h1>Webdev CP01 - Ex01</h1>
+<hr>
+    <fieldset>
+<legend>
+    <h2>Calcule o tempo de duração da sua reunião:</h2>
+</legend>
+
+    <span><strong>Início:</strong></span>
+    <span>Horas</span>
+    <input style="width:60px" id="horaIni" type="text" placeholder="Horas..">
+    <span>Minutos</span>
+    <input style="width:60px" id="minIni" type="text" placeholder="Minutos..">
+
+<br>
+
+    <span><strong>Término:</strong></span>
+    <span>Horas</span>
+    <input style="width:60px" id="horaFim" type="text" placeholder="Horas..">
+    <span>Minutos</span>
+    <input style="width:60px" id="minFim" type="text" placeholder="Minutos..">
+
+<br>
+
+    <button onclick="calcular()">Calcular duração</button>
+    <button type="reset">Limpar</button>
+
+
+<h2>
+    Duração Total: 
+    <span id="horas">00</span>:<span id="minutos">00</span>
+</h2>
+
+</fieldset>
+
+<script src="./main.js"></script>
+
+</body>
+</html>
